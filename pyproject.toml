@@ -1,0 +1,27 @@
+[tool.poetry]
+name = "hb-cli"
+version = "0.1.0"
+description = "CLI for HarukaBot"
+authors = ["SK-415 <2967923486@qq.com>"]
+license = "GPL-3.0-or-later"
+readme = "README.md"
+homepage = "https://github.com/SK-415/hb-cli"
+repository = "https://github.com/SK-415/hb-cli"
+documentation = "https://github.com/SK-415/hb-cli#readme"
+keywords = ["qq", "bot", "harukabot", "qqbot"]
+
+[tool.poetry.scripts]
+hb = 'hb_cli.__main__:cli'
+
+[tool.poetry.dependencies]
+python = "^3.7"
+click = "^7.1.2"
+python-dotenv = "^0.15.0"
+haruka-bot = "^1.0.3"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"

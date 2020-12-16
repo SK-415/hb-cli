@@ -1,5 +1,3 @@
 # hb-cli
 
-一个异常简陋的脚手架
-
-希望能借此简化 [`HarukaBot`](https://github.com/SK-415/HarukaBot) 的部署 \ 运行过程
+一个给 [`HarukaBot`](https://github.com/SK-415/HarukaBot) 做的简易脚手架，现已合并至 [`HarukaBot`](https://github.com/SK-415/HarukaBot/tree/master/src/plugins/haruka_bot/cli)。
